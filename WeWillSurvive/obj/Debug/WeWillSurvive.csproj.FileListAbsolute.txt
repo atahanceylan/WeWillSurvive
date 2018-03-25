@@ -1,0 +1,13 @@
+c:\users\atahanc\documents\visual studio 2015\Projects\WeWillSurvive\WeWillSurvive\bin\Debug\WeWillSurvive.exe.config
+c:\users\atahanc\documents\visual studio 2015\Projects\WeWillSurvive\WeWillSurvive\bin\Debug\WeWillSurvive.exe
+c:\users\atahanc\documents\visual studio 2015\Projects\WeWillSurvive\WeWillSurvive\bin\Debug\WeWillSurvive.pdb
+c:\users\atahanc\documents\visual studio 2015\Projects\WeWillSurvive\WeWillSurvive\obj\Debug\WeWillSurvive.csprojResolveAssemblyReference.cache
+c:\users\atahanc\documents\visual studio 2015\Projects\WeWillSurvive\WeWillSurvive\obj\Debug\WeWillSurvive.exe
+c:\users\atahanc\documents\visual studio 2015\Projects\WeWillSurvive\WeWillSurvive\obj\Debug\WeWillSurvive.pdb
+C:\Users\ataha\Documents\Visual Studio 2017\Projects\WeWillSurvive\WeWillSurvive\bin\Debug\WeWillSurvive.exe.config
+C:\Users\ataha\Documents\Visual Studio 2017\Projects\WeWillSurvive\WeWillSurvive\bin\Debug\WeWillSurvive.exe
+C:\Users\ataha\Documents\Visual Studio 2017\Projects\WeWillSurvive\WeWillSurvive\bin\Debug\WeWillSurvive.pdb
+C:\Users\ataha\Documents\Visual Studio 2017\Projects\WeWillSurvive\WeWillSurvive\obj\Debug\WeWillSurvive.csprojResolveAssemblyReference.cache
+C:\Users\ataha\Documents\Visual Studio 2017\Projects\WeWillSurvive\WeWillSurvive\obj\Debug\WeWillSurvive.csproj.CoreCompileInputs.cache
+C:\Users\ataha\Documents\Visual Studio 2017\Projects\WeWillSurvive\WeWillSurvive\obj\Debug\WeWillSurvive.exe
+C:\Users\ataha\Documents\Visual Studio 2017\Projects\WeWillSurvive\WeWillSurvive\obj\Debug\WeWillSurvive.pdb
