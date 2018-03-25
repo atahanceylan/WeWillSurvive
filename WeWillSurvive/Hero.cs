@@ -51,5 +51,29 @@ namespace WeWillSurvive
             return walkMap;
         }
 
+        public static void BattleWithEnemies(Hero h, List<Enemy> listOfEnemies, int[] walkMap)
+        {
+            int currentPosition = 0;
+            Console.WriteLine("Hero started journey with " + "{0} " + "HP!", h.HealthPoint);
+
+            for (int i = currentPosition; i < h.DistanceToResources; i++)
+            {
+                if (walkMap[i] == 1)
+                {
+                    h.Attack(h, Enemy.GetEnemyProfileFromLocation(i, listOfEnemies));
+                    if (h.HealthPoint < 0)
+                    {
+                        break;
+                    }
+                }
+            }
+
+            if (h.HealthPoint > 0)
+            {
+                Console.WriteLine("Hero Survived!");
+            }
+
+        }
+
     }
 }

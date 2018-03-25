@@ -77,35 +77,7 @@ namespace WeWillSurvive
             
             int[] walkMap = hero.WalkMapToResources(hero.DistanceToResources);
             Enemy.SetEnemyLocations(enemyList, walkMap);
-            BattleWithEnemies(hero,enemyList,walkMap);
-        }
-
-        
-
-        private static void BattleWithEnemies(Hero h, List<Enemy> listOfEnemies,int[] walkMap)
-        {
-            int currentPosition = 0;
-            Console.WriteLine("Hero started journey with " + "{0} " + "HP!", h.HealthPoint);
-
-            for(int i= currentPosition;i<h.DistanceToResources;i++)
-            {
-                if(walkMap[i] == 1)
-                {
-                    h.Attack(h, Enemy.GetEnemyProfileFromLocation(i,listOfEnemies));
-                    if (h.HealthPoint < 0)
-                    {
-                        break;
-                    }
-                }
-            }
-
-            if (h.HealthPoint > 0)
-            {
-                Console.WriteLine("Hero Survived!");
-            }         
-
-        }
-
-       
+            Hero.BattleWithEnemies(hero,enemyList,walkMap);
+        }       
     }
 }
